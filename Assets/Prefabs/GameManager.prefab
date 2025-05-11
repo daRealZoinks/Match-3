@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2826973881481313608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2862056519261144574}
+  - component: {fileID: 3945909142359994959}
+  - component: {fileID: 6997331337652647780}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2862056519261144574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826973881481313608}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.16354483, y: 0.03018089, z: 0.005374357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3945909142359994959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826973881481313608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eaebbec70171803419b337c5308a6e93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 8
+  gemPrefab: {fileID: 9207837030830087459, guid: 8c557efaa28c71841922f0faf09178b3, type: 3}
+  gemSprites:
+  - {fileID: 6694739561774956869, guid: 7da31efb4d1b51c419b40dcd80a790cf, type: 3}
+  - {fileID: 8863633090271060444, guid: a21160dc480c79d4d882f8899c5b06ac, type: 3}
+  - {fileID: -6344228767157524199, guid: 27cb29da9221d6e40a15cfc612134fef, type: 3}
+  - {fileID: 4829652260338483436, guid: bfd82a3e0dcd4344cb394568ed9626ce, type: 3}
+  - {fileID: -788233153982356281, guid: 6127864269a43b246ae2473325b033ea, type: 3}
+  - {fileID: -8414573103503899550, guid: 09b01a8c9838f7444bfe9c3281eb51f8, type: 3}
+  gemSize: 1
+--- !u!114 &6997331337652647780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826973881481313608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10b932413452de41ba04496dfae0314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
